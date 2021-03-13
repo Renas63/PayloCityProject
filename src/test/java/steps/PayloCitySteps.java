@@ -26,6 +26,7 @@ public class PayloCitySteps {
         payloCityHomePages.username.sendKeys(ConfigReader.getProperty("username"));
         payloCityHomePages.password.sendKeys(ConfigReader.getProperty("password"));
         payloCityHomePages.loginButton.click();
+        system.out.println();
     }
     @When("user  clicks add employee button")
     public void user_clicks_add_employee_button() {
